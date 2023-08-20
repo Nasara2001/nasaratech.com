@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Include the external styles.css file -->
+    <title>Projects - Nasara Portfolio</title>
+</head>
+<body>
+    <header class="visible">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Project 1 Section -->
+    <section id="project1" class="section">
+        <h2 class="section-title">Graphic Design</h2>
+        <div class="project-card">
+            <div id="swiper-container" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card-image"><img src="card_front.jpg" alt="Project 1 Image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-image"><img src="D. mathias flyer.jpg" alt="Project 1 Image 2"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-image"><img src="David Issah.jpg" alt="Project 1 Image 3"></div>
+                    </div>
+                    <!-- Add more images as needed -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <p class="project-description">Explore a dynamic collection of captivating graphic design projects, each skillfully crafted to convey unique messages and engage audiences.</p>
+            <a class="project-learn-more" href="project1-details.html">Learn More</a>
+        </div>
+    </section>
+
+
+     <!-- Project 2 Section -->
+     <section id="project2" class="section">
+        <h2 class="section-title">Chef Booking Application</h2>
+        <div class="project-card">
+                    <div id="swiper-container" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card-image"><img src="kitchen1.jpg" alt="Project 1 Image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-image"><img src="kitchen2.jpg" alt="Project 1 Image 2"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-image"><img src="kitchen3.jpg" alt="Project 1 Image 3"></div>
+                    </div>
+                    <!-- Add more images as needed -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <p class="project-description">Revolutionize Your Dining Experience with Our Chef Booking App! Explore, Indulge, and Enjoy Tailored Culinary Delights, Anytime, Anywhere</p>
+            <a class="project-learn-more" href="project2-details.html">Learn More</a>
+        </div>
+    </section>
+
+     <!-- Project 3 Section -->
+     <section id="project3" class="section">
+        <h2 class="section-title">Proficient Data Management and Report Writing</h2>
+        <div class="project-card">
+            <div id="swiper-container" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card-image"><img src="project3 _1.jpg" alt="Project 1 Image"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <p class="project-description">Unveiling Proficiency in Data Management and Report Writing</p>
+            <a class="project-learn-more" href="project3-details.html">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Other sections and content -->
+
+    <footer>
+        <p>&copy; 2023 Nasara. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('#swiper-container', {
+            loop: true, // Enable looping
+            autoplay: {
+                delay: 5000, // Delay between slides in milliseconds (5 seconds)
+            },
+            pagination: {
+                el: '.swiper-pagination', // Add pagination
+            },
+        });
+    </script>
+</body>
+</html>
